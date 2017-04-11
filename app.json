@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "View/board/board",
+    "View/item/item",
+    "View/serach/serach",
+    "View/list/list"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#354951",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"#FFF"
+  }
+ 
+}

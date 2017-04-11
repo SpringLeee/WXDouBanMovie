@@ -1,0 +1,8 @@
+<!--View/item/item.wxml-->
+<view wx:for="{{ movies }}">
+  <text>{{ item.title }}</text>
+
+
+ 
+
+</view>

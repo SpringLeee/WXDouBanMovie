@@ -1,0 +1,27 @@
+
+<view class="title">
+  <text>{{ title }}</text>
+</view>
+
+
+<image src="../../images/loading.gif" hidden="{{ loading }}" class="loading">
+   
+</image>
+
+
+<view wx:for="{{ movies }}">
+  <view class="mitem">
+      <image src="{{ item.images.medium }}"></image>
+      <view class="info">
+         <text>{{ item.title }}</text>
+         <text style="font-size:16px">{{ item.original_title }}</text>
+         <text style="font-size:16px; color:gray">导演： {{ item.directors[0].name }}</text>
+      </view>
+
+      <view class="star">{{ item.rating.average }}</view>
+
+      
+  </view>
+</view>
+
+

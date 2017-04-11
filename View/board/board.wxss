@@ -1,0 +1,21 @@
+/* View/board/board.wxss */
+.board-item{
+flex:1;
+margin-top:20rpx;
+border: 1px  solid #eee;
+padding: 30rpx;
+display: flex;
+cursor: pointer;
+
+background-color:ivory;
+}
+
+.board-item image{
+ 
+width:46rpx;
+height:46rpx
+}
+.board-item text{
+  
+    flex: 1;
+}

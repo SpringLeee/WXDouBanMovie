@@ -1,0 +1,45 @@
+<view class="container" style="width:100%">
+    <view class="slide" >
+      <swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000" style="height:400rpx;" >
+            <block  wx:for="{{imgUrls}}">
+               <swiper-item >
+                   <image  src="{{item}}"  mode="aspectFill"  style="height:100%;width:100%" />
+                </swiper-item>
+            </block>
+      </swiper>
+    </view>
+    
+    <view style="padding:0 80rpx;margin-top:40rpx;">
+      <text style="display:block;font-size:46rpx;font-weight: bolder;">豆瓣电影榜单集合</text>
+      <text style="display:block;margin-top:20rpx;font-size:30rpx;color :dimgray">最新,最In的影视信息收集~</text>
+    </view>
+
+
+    <view class="board" style="dispaly:flex;flex-direction:column;padding:30rpx">
+     <navigator url="../list/list?type=正在热映" hover-class="none">
+        <view class="board-item" >
+             <text>正在热映</text>
+             <image  src="../../images/arrowright.png"></image >
+         </view>
+      </navigator>
+     <navigator url="../list/list?type=即将上映" hover-class="none">
+      <view class="board-item" >
+         <text>即将上映</text>
+           <image src="../../images/arrowright.png"></image>
+      </view>
+      </navigator>
+       <navigator url="../list/list?type=北美票房榜" hover-class="none">
+      <view class="board-item">
+         <text>北美票房榜</text>
+            <image src="../../images/arrowright.png"></image>
+      </view>
+       </navigator>
+        <navigator url="../list/list?type=Top250" hover-class="none">
+       <view class="board-item">
+         <text>Top250</text>
+            <image src="../../images/arrowright.png"></image>
+      </view>
+      </navigator>
+    </view>
+     
+</view>

@@ -1,0 +1,54 @@
+/* View/list/list.wxss */
+.title{
+    border-bottom: 2px solid #eee;
+    text-align :center;
+    height: 100rpx;
+    line-height: 100rpx;
+}
+.mitem{
+
+width: 100%;
+padding: 14rpx 26rpx;
+display: flex;
+  border-bottom: 1px solid #eee;
+
+}
+.mitem image{
+ height: 280rpx;
+ width :200rpx;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30rpx;
+    padding-top: 20rpx;
+}
+.info text{
+
+    line-height:60rpx;
+   
+
+}
+.star{
+    margin-top: 30rpx;
+position: absolute;
+right: 20rpx;
+width: 60rpx;
+height: 40rpx;
+background-color:  coral;
+border-radius: 16rpx;
+text-align: center;
+color: #fff;
+font-size: 18px;
+
+padding: 6rpx;
+
+}
+.loading{
+ width: 150rpx;
+ height: 150rpx;
+ margin-top: 30rpx;
+ text-align: center;
+padding-left: 42%;
+}
